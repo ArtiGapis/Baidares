@@ -21,6 +21,18 @@ jQuery( document ).ready(function() {
             owl.trigger('stop.owl.autoplay')
         })
     });
+    // -----------scrool-hidder------------------
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").className = "navbar2";
+  } else {
+      document.getElementById("navbar").className = "navbar1";
+  }
+  prevScrollpos = currentScrollPos;
+};
 
     $( document ).ready(function() {
         $('#cssmenu li.menu-item-has-children>a').on('click', function(){
