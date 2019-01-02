@@ -8,41 +8,62 @@ Author URI:
 $pilkas: rgb(179, 179, 179);
 $melina: rgb(42, 171, 210);
 
-
-                                                    /* contact */
-//div#main-navigation{
-//  background-color: rebeccapurple;
-//}
-.name-wraper input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required,.name-wraper input.wpcf7-form-control.wpcf7-text {
-  background: none;
-  border: 2px solid white;
-}
-.massage-wraper label,.massage-wraper textarea.wpcf7-form-control.wpcf7-textarea {
-  width: 100%;
-  background: none;
-}
-.massage-wraper textarea.wpcf7-form-control.wpcf7-textarea{
-  border: 2px solid white;
-}
-.submit-wraper input.wpcf7-form-control.wpcf7-submit{
-  width: 15%;
-  margin-bottom: 10px;
-}
-.col-md-10.container-white {
-  padding: 20px;
-}
                                                       /* owl-carousel */
 
-  .owl-item img {
-    margin-top: 40px;
-    border: 4px solid $melina;
-  }
+.owl-item img {
+  margin-top: 40px;
+  border: 4px solid $melina;
+}
+
+.owl-hider {
+  height: 1px;
+  margin-bottom: 25px;
+  position: fixed;
+}
+
                                                       /* GLOBAL PAGE STYLES */
+
 body {
   background-image: url("images/background.jpg");
   z-index: -1;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+                                                      /* hederis */
+
+.header-line-wraper {
+  background-color: $melina;
+  text-align: right;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  a {
+    color: white;
+    margin-top: 10px;
+  }
+}
+
+.header-line-wraper-fix {
+  background-color: $melina;
+  text-align: right;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 21px 0px 36px 0px;
+  a {
+    color: white;
+  }
+}
+
+.sidebar-fix {
+  position: fixed;
+  width: 95%;
+  z-index: 2;
+}
+
+.fix {
+  height: 150px;
 }
 
 .container-white {
@@ -61,48 +82,18 @@ footer {
   }
 }
 
+                                                    /*404*/
+
 .not-found {
   text-align: center;
   padding: 100px 0;
-}
-
-.not-found h1 {
-  margin-bottom: 30px;
-}
-
-nav {
-}
-                                                      /* hederis */
-.header-line-wraper {
-  background-color: $melina;
-  text-align: right;
-  .header-line-wraper {
-    a {
-      color: white;
-    }
+  h1 {
+    margin-bottom: 30px;
   }
 }
-.header-meniu-wraper {
-  width: 570px;
-}
-.header-line-wraper {
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-}
-.nav-up {
-  top: -40px;
-}
 
-.navbar1 {
-  height: 1px;
-  margin-bottom: 25px;
-}
-.navbar2 {
-  height: 100px;
-  margin-bottom: 250px;
-}
                                                       /*mobile*/
+
 @media screen and (max-width: 768px) {
 
 #cssmenu,
