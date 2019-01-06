@@ -50,7 +50,8 @@
                 </a>
             </div>
             <div class="col-lg-6"><?php get_sidebar(); ?></div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-2">
+            </div>
         </div>
     </div>
     </div>

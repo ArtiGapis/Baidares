@@ -30,13 +30,11 @@ var currentScrollPos = window.pageYOffset;
       document.getElementById("sidebar-wraper").className ="container";
       document.getElementById("blue-line").className ="header-line-wraper";
       document.getElementById("line").classList.remove("fix");
-
   } else {
       document.getElementById("navbar").className = "owl-hider";
       document.getElementById("sidebar-wraper").className ="col-lg-6 sidebar-fix";
       document.getElementById("blue-line").className ="header-line-wraper-fix";
       document.getElementById("line").className ="fix";
-
   }
   prevScrollpos = currentScrollPos;
 };

@@ -30,6 +30,27 @@ body {
   background-attachment: fixed;
 }
 
+.top-bottom {
+  color: black;
+  background-color: $melina;
+  border: 4px solid #167ab8;
+  border-radius: 50px;
+  position: fixed;
+  right: 15%;
+  bottom: 5px;
+  width: 50px;
+  height: 50px;
+  i {
+    width: 5px;
+    margin: 14px;
+    color: white;
+  }
+}
+.booking {
+  position: fixed;
+  left: 1%;
+  bottom: 100px;
+}
                                                       /* hederis */
 
 .header-line-wraper {
@@ -66,13 +87,17 @@ body {
   height: 150px;
 }
 
+                                                    /*home*/
+
 .container-white {
   border:2px solid $melina;
   border-radius: 10px;
-  margin:20px 0 20px 0;
+  margin: 0px 0 20px 0;
   padding: 20px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.72);
 }
+
+                                                    /*footer*/
 
 footer {
   background: $melina;
@@ -305,7 +330,6 @@ color: $pilkas;
     .show-desctop {
     display: none !important;
   }
-
   .show-mobile {
     display: block !important;
   }
@@ -314,21 +338,3 @@ color: $pilkas;
 @media screen and (max-width: 480px) {
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

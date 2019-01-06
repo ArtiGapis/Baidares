@@ -9,6 +9,7 @@ page-{ID}.php */ ?>
     <div class="container home-page">
         <div class="row">
             <div class="col-lg-2">
+
             </div>
             <div class="col-lg-8 container-white">
                 <div class="rte">
