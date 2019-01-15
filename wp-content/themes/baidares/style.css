@@ -53,13 +53,19 @@ body {
     color: white;
     margin-top: 10px; }
 
+img.img-responsive {
+  margin-top: 7px; }
+
+nav.navbar.navbar-default.pull-right {
+  margin-top: 5px; }
+
 .header-line-wraper-fix {
   background-color: #2aabd2;
   text-align: right;
   position: fixed;
   z-index: 2;
   width: 100%;
-  padding: 21px 0px 36px 0px; }
+  padding: 25px 0px 44px 0px; }
   .header-line-wraper-fix a {
     color: white; }
 
@@ -69,7 +75,7 @@ body {
   z-index: 2; }
 
 .fix {
-  height: 150px; }
+  height: 175px; }
 
 /*home*/
 .container-white {
