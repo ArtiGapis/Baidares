@@ -12,7 +12,7 @@
             <div class="row" >
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
-                    <div class="owl-carousel owl-theme" id="navbar">
+                    <div class="owl-carousel owl-theme">
                         <?php
                         $i = 0;
                         $args = array( 'post_type' => 'carousel', 'posts_per_page' => 9999 );
@@ -33,9 +33,6 @@
         <div class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-2">
-                <a class="logo" href="<?php echo get_home_url(); ?>" title="<?php bloginfo('name'); ?>">
-                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>">
-                </a>
             </div>
             <div class="col-lg-6"><?php get_sidebar(); ?></div>
             <div class="col-lg-2">

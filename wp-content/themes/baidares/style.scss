@@ -14,7 +14,9 @@ $melina: rgb(42, 171, 210);
   margin-top: 80px;
   border: 4px solid $melina;
 }
-
+.logo{
+  width: 120px;
+}
                                                       /* GLOBAL PAGE STYLES */
 
 body {
@@ -114,6 +116,7 @@ nav ul {
   display: none;
   margin: 0 auto;
   padding: 12px 30px;
+
   @media all and (min-width: 545px) {
     display: block;
     margin: initial;
@@ -185,30 +188,13 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-  img.img-responsive {
-    margin-top: 7px;
-    width: 233px;
-  }
 }
 
 @media screen and (max-width: 992px) {
 }
 
 @media screen and (max-width: 768px) {
-  .container-white {
-    //margin: 90px 0 20px 0;
-    padding: 20px
-  }
-  .img-responsive{
-    visibility: hidden;
-  }
 
-  .show-desctop {
-    display: none !important;
-  }
-  .show-mobile {
-    display: block !important;
-  }
 }
 
 @media screen and (max-width: 480px) {

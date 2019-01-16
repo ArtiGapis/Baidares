@@ -20,9 +20,15 @@ jQuery( document ).ready(function() {
             owl.trigger('stop.owl.autoplay')
         })
     });
-    $("#heart-trigger").click(function () {
-        $("li").toggleClass("visible");
-    });
 
+    // $("#heart-trigger").click(function () {
+    //     $("li").toggleClass("visible");
+    // });
+
+    $(document).ready(function(){
+        $("button").touch(function(){
+            $("li").toggleClass("visible");
+        });
+    });
 
 } )( jQuery );
