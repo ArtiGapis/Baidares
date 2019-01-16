@@ -7,18 +7,6 @@
 		<?php wp_head(); ?>
 	</head>
     <body <?php body_class( $class ); ?>>
-    <div class="header-line-wraper" id="blue-line">
-        <div class="header-line-wraper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <i class="fas fa-phone"></i>
-                        <a href="+37063384113">tel:+370 (633) 84113</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div>
         <div class="container">
             <div class="row" >
