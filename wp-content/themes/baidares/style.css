@@ -73,11 +73,9 @@ nav ul {
       flex-direction: row;
       justify-content: center;
       align-items: center; } }
-  nav ul li {
-    display: none; }
-    @media all and (min-width: 545px) {
-      nav ul li {
-        display: block; } }
+  @media all and (min-width: 545px) {
+    nav ul li {
+      display: block; } }
   nav ul a {
     display: block;
     text-decoration: none;

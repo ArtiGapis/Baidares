@@ -21,14 +21,42 @@ jQuery( document ).ready(function() {
         })
     });
 
-    // $("#heart-trigger").click(function () {
-    //     $("li").toggleClass("visible");
-    // });
+    // function myFunction() {
+    //     document.getElementById("menu").style.display = "block";
+    // }
 
-    $(document).ready(function(){
-        $("button").touch(function(){
-            $("li").toggleClass("visible");
-        });
+    var timer;
+    var timeVisible = 5000;
+    timeFadeout();
+
+    function timeFadeout() {
+        timer = setTimeout(function() {
+            $('.controls').fadeOut();
+        }, timeVisible );
+    }
+
+    $('html').click(function() {
+        clearTimeout(timer);
+        if ($('.controls:visible').length) {
+            $('.controls').fadeOut();
+        }
+        else {
+            $('.controls').fadeIn();
+            timeFadeout();
+        }
     });
+
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.getElementById("myBtn").style.display = "fixed";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    // document.getElementById("myBtn2").ontouchend = function() {hideControls("menu")};
+
 
 } )( jQuery );
