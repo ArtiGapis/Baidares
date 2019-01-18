@@ -1,6 +1,18 @@
 jQuery( document ).ready(function() {
     // console.log( "ready!" );
+
 });
+
+
+
+function heading_btn() {
+    var x = document.getElementById("menu");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
 
 ( function( $ ) {
     $(document).ready(function(){
@@ -21,30 +33,6 @@ jQuery( document ).ready(function() {
         })
     });
 
-    // function myFunction() {
-    //     document.getElementById("menu").style.display = "block";
-    // }
-
-    var timer;
-    var timeVisible = 5000;
-    timeFadeout();
-
-    function timeFadeout() {
-        timer = setTimeout(function() {
-            $('.controls').fadeOut();
-        }, timeVisible );
-    }
-
-    $('html').click(function() {
-        clearTimeout(timer);
-        if ($('.controls:visible').length) {
-            $('.controls').fadeOut();
-        }
-        else {
-            $('.controls').fadeIn();
-            timeFadeout();
-        }
-    });
 
 
     window.onscroll = function() {scrollFunction()};
@@ -57,6 +45,4 @@ jQuery( document ).ready(function() {
         }
     }
     // document.getElementById("myBtn2").ontouchend = function() {hideControls("menu")};
-
-
 } )( jQuery );

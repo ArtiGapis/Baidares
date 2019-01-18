@@ -54,6 +54,38 @@ body {
 img.img-responsive {
   margin-top: 7px; }
 
+/*BANDYMAS*/
+.section {
+  width: 25%;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
+  padding: 10px;
+  background: #f09d09; }
+
+.toggle {
+  display: inline-block;
+  padding: 0 .25rem;
+  background: #bada55; }
+
+.toggle span:nth-child(2) {
+  display: none; }
+
+.more {
+  width: 70%;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  height: 150px;
+  text-align: left;
+  padding: .5rem;
+  background: #000;
+  display: none; }
+
+.toggle:hover {
+  cursor: pointer; }
+
 /*menu*/
 .header-wraper {
   position: fixed;
@@ -75,7 +107,7 @@ nav ul {
       align-items: center; } }
   @media all and (min-width: 545px) {
     nav ul li {
-      display: block; } }
+      display: unset !important; } }
   nav ul a {
     display: block;
     text-decoration: none;
