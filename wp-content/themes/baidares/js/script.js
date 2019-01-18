@@ -5,14 +5,6 @@ jQuery( document ).ready(function() {
 
 
 
-function heading_btn() {
-    var x = document.getElementById("menu");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
 
 ( function( $ ) {
     $(document).ready(function(){
@@ -33,16 +25,14 @@ function heading_btn() {
         })
     });
 
-
-
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-            document.getElementById("myBtn").style.display = "fixed";
-        } else {
-            document.getElementById("myBtn").style.display = "none";
-        }
-    }
+    // window.onscroll = function() {scrollFunction()};
+    //
+    // function scrollFunction() {
+    //     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    //         document.getElementById("myBtn").style.display = "fixed";
+    //     } else {
+    //         document.getElementById("myBtn").style.display = "none";
+    //     }
+    // }
     // document.getElementById("myBtn2").ontouchend = function() {hideControls("menu")};
 } )( jQuery );

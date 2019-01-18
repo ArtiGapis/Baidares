@@ -31,12 +31,7 @@
     <div id="line">
     <div class="container" id="sidebar-wraper">
         <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-2">
-            </div>
-            <div class="col-lg-6"><?php get_sidebar(); ?></div>
-            <div class="col-lg-2">
-            </div>
+            <div class="col-lg-12"><?php get_sidebar(); ?></div>
         </div>
     </div>
     </div>
