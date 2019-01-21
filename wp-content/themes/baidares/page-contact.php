@@ -19,8 +19,7 @@ get_header(); ?>
                             <div class="col-md-4">
                                 <?php echo do_shortcode("[contact-form-7 id=\"14\" title=\"Susisiekite\"]"); ?>
                             </div>
-                            <div class="col-md-8">
-                            </div>
+                            <div class="col-md-8"></div>
                         </div>
                     </div>
 				</div>

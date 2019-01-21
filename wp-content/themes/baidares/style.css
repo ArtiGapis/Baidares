@@ -23,7 +23,7 @@ body {
 .top-bottom {
   color: black;
   background-color: #2aabd2;
-  border: 4px solid #167ab8;
+  border: 4px solid #323042;
   border-radius: 50px;
   position: fixed;
   right: 15%;
@@ -34,11 +34,6 @@ body {
     width: 5px;
     margin: 14px;
     color: white; }
-
-.booking {
-  position: fixed;
-  left: 1%;
-  bottom: 100px; }
 
 /* hederis */
 .header-line-wraper {
@@ -121,10 +116,6 @@ nav ul {
     .heart-trigger {
       order: initial; } }
 
-.visible {
-  display: block;
-  transform: scale(1); }
-
 .fa-heart {
   font-size: 1.8em;
   color: #FFC4EB;
@@ -142,7 +133,8 @@ nav ul {
   border-radius: 10px;
   margin: 0px 0 20px 0;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.72); }
+  background-color: rgba(255, 255, 255, 0.72);
+  min-height: 1000px; }
 
 /*footer*/
 footer {
@@ -150,7 +142,7 @@ footer {
   padding: 10px 0;
   border-top: 4px solid #323042; }
   footer .footer-text-wraper {
-    color: white; }
+    color: #323042; }
 
 /*404*/
 .not-found {
@@ -158,5 +150,27 @@ footer {
   padding: 100px 0; }
   .not-found h1 {
     margin-bottom: 30px; }
+
+/*tracks*/
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  width: 100%;
+  height: auto; }
+
+.tracks-title {
+  position: relative;
+  top: -62px;
+  left: 5px;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-shadow: 3px 2px #2aabd2; }
+
+iframe {
+  width: 100%;
+  height: 480px; }
+  @media all and (max-width: 545px) {
+    iframe {
+      height: 240px; } }
 
 /*# sourceMappingURL=style.css.map */

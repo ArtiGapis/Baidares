@@ -30,7 +30,7 @@ body {
 .top-bottom {
   color: black;
   background-color: $melina;
-  border: 4px solid #167ab8;
+  border: 4px solid $tamsi;
   border-radius: 50px;
   position: fixed;
   right: 15%;
@@ -43,11 +43,7 @@ body {
     color: white;
   }
 }
-.booking {
-  position: fixed;
-  left: 1%;
-  bottom: 100px;
-}
+
                                                       /* hederis */
 
 .header-line-wraper {
@@ -144,11 +140,6 @@ background: $tamsi;
   }
 }
 
-.visible {
-  display: block;
-  transform: scale(1);
-}
-
 .fa-heart {
   font-size: 1.8em;
   color: #FFC4EB;
@@ -170,6 +161,7 @@ background: $tamsi;
   margin: 0px 0 20px 0;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.72);
+  min-height: 1000px;
 }
 
                                                     /*footer*/
@@ -179,7 +171,7 @@ footer {
   padding: 10px 0;
   border-top: 4px solid $tamsi;
   .footer-text-wraper{
-    color: white;
+    color: $tamsi;
   }
 }
 
@@ -193,6 +185,29 @@ footer {
   }
 }
 
+                                                  /*tracks*/
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{
+  width: 100%;
+  height: auto;
+}
+.tracks-title{
+  position: relative;
+  top: -62px;
+  left: 5px;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-shadow: 3px 2px $melina;
+}
+iframe{
+  width: 100%;
+  height: 480px;
+  @media all and (max-width: 545px) {
+    height: 240px;
+  }
+}
 
 
 @media screen and (min-width: 1200px) {

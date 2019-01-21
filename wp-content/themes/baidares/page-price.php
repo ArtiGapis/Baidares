@@ -1,4 +1,4 @@
-<?php /* Template Name: galery */
+<?php /* Template Name: price */
 get_header(); ?>
 <?php /*page-{slug}.php
 page-{ID}.php */ ?>
